@@ -1,0 +1,10 @@
+.blocka {
+    float:center;
+    background-color:grey;
+    height:75px;
+}
+.blockb {
+    float:left;
+    background-color:grey;
+    height:75px;
+}
