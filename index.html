@@ -4,50 +4,30 @@
     <meta charset="UTF-8">
     <title>Lab 5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="vendor/styles/normalize.css">
-    <link rel="stylesheet" href="vendor/styles/icons.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/modules.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
-
-
-    <header>
-        <div class="blocka">
-            <img src="/images/block-alphabet-letter-a" alt="A">
-        </div>
-    </header>
-    <main>
-        <div class="blockb">
-            <img src="/images/block-alphabet-letter-b" alt="B">
-        </div>
-        <div class="blockcd">
-            <div class="blockc">
-                <img src="/images/block-alphabet-letter-c" alt="C">
-            </div>
-            <div class="blockd">
-                <img src="/images/block-alphabet-letter-d" alt="D">
-            </div>
-        </div>
-        <div class="twosep">
-            <img src="/images/block-alphabet-letter-e" alt="E">
-        </div>
-        <div class="twosep">
-            <img src="/images/block-alphabet-letter-f" alt="F">
-        </div>
-        <div class="twosep">
-            <img src="/images/block-alphabet-letter-g" alt="G">
-        </div>
-        <div class="twosep">    
-            <img src="/images/block-alphabet-letter-h" alt="H">
-        </div>
-        <div class="blocki">
-            <img src="/images/block-alphabet-letter-i" alt="I">
-        </div>    
-
+    <header class="blocka">A</header>
+        
+    <main class=main-container>
+        <nav>B</nav>
+        <section class="blockcd-parent">
+            <section class="blockcd">C</section>
+            <section class="blockcd">D</section>
+        </section>
+        <section class="blockefgh-parent">
+            <section class="blockefgh">E</section>
+            <section class="blockefgh">F</section>
+            <section class="blockefgh">G</section>
+            <section class="blockefgh">H</section>
+        </section>
     </main>
+
+    <footer class="blocki">I</footer>    
+    
 
   </body>
 </html>
