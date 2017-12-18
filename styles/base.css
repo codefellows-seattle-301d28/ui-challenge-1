@@ -1,0 +1,36 @@
+/* Had to approximate the widths to accomodate for border */
+
+body {
+    width: 480px;
+    margin: 0 auto;
+  }
+
+header, nav,  footer, .blockcd, .blockefgh{
+    background-color:grey;
+    width: 960px;
+    border: 1px solid black;  
+}
+
+header {
+    height:75px;
+}
+
+nav {
+    height:150px;
+}
+
+.blockcd {
+    float:left;
+    height:125px;
+}
+
+.blockefgh {
+    float:left;
+    width:230px;
+    height: 250px;   
+}
+
+footer {
+    clear:both;
+    height:80px;   
+}
