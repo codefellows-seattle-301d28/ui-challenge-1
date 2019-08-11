@@ -1,0 +1,36 @@
+
+
+@media only screen and (min-width: 800px) {
+body{
+    width: 960px;
+}
+    
+header {
+    height:100px;
+}
+
+nav {
+    float:left;
+    width:200px;
+    height:600px;
+}
+
+.blockcd {
+    width:360px;
+    height:200px;
+}
+
+.blockefgh {
+    width:180px;
+    height:250px;  
+}
+
+footer {
+    clear:none;
+    float:right;
+    width:756px;
+    height:150px;
+}
+
+/* Had to approximate the widths to accomodate for border */
+}
